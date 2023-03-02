@@ -1,0 +1,16 @@
+{
+  "name": "@sentio/cbeth",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "processor_server ./dist/lib",
+    "build": "sentio build",
+    "upload": "sentio upload"
+  },
+  "dependencies": {
+    "@sentio/sdk": "^2.6.0"
+  },
+  "devDependencies": {
+    "@sentio/cli": "^2.3.2"
+  }
+}
